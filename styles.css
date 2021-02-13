@@ -1,32 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Roboto+Mono:wght@200;400;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    background-color: #ffffe8;
+}
+
+h1{
+    background-color: #03396c ;
+    padding: 2rem;
+    color:  whitesmoke;
+    border-bottom: 1px solid black ;
+}
+
 textarea{
-    width: 80%;
+    font-family: 'Architects Daughter';
+    background-color: #ffffe8;
+    font-weight: 400;
+    font-size: larger;
+    width: 60%;
     height: 10vh;
     display: block;
-    margin: 1rem;
+    margin: 1rem auto;
     padding: 1rem;
 }
 label{
     width: 80%;
+    font-weight:600;
+    font-size: larger;
     margin: 1rem;
+    display: inline-block;
 }
 
 button{
+    font-family: 'Architects Daughter';
     width: 80%;
-    max-width: 200px;
+    border: 1px beige;
+    border-radius: 2rem;
+    outline: 2rem;
+    font-weight: 600;
+    font-size: 1rem;
+    max-width: 250px;
     margin: 1rem;
     padding: 1rem;
+    background-color: rgb(255, 215, 106);
 }
 
 #txtoutput{
-    width: 80%;
+    padding: 0 1rem;
     margin: 1rem;
+    font-weight:600;
     font-size: larger;
 }
 
 #output{
+    font-size: 1.2rem;
+    border-radius: 1rem;
     border: 1px solid black;
     height: 10vh;
-    width: 80%;
-    margin: 1rem;
+    width: 60%;
+    margin: 1rem auto;
     padding: 1rem;
+}
+
+#footer{
+    border-top: 1px solid rgb(0, 0, 0);
+    padding: 2rem;
+    background-color: #6497b1;
+
+}
+#footer p{
+    width: 80%;
+    padding: 1rem;
+    margin: 0 auto;
 }
