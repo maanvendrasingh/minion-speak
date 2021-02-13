@@ -4,6 +4,6 @@
 </h3>
 <br>
 <p> 
-  Demo Page avialable here, click here: https://letstalkyodish.netlify.app/
+  Demo Page available here, click here: https://letstalkyodish.netlify.app/
  </p>
   
